@@ -6,7 +6,7 @@ import {
   Stack,
   Button,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React from "react";
 import { useResume } from "../../Context";
 import ImageUpload from "../ImageUploadButton/ImageUpload.component";
 import AutoComplete from "../AutoComplete/AutoComplete.component";

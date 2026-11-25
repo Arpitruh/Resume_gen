@@ -7,7 +7,6 @@ import Footer from "./components/Layouts/Footer";
 import Main from "./components/Main";
 import WebFont from "webfontloader";
 
-import ErrorBoundary from "./components/ErrorBoundary";
 
 function App() {
   useEffect(() => {

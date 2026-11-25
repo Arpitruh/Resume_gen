@@ -15,7 +15,7 @@ import {
   Textarea,
   Checkbox,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React from "react";
 import { useResume } from "../../Context";
 import { v4 as uuidv4 } from "uuid";
 import { MdDelete } from "react-icons/md";

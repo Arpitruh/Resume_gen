@@ -178,7 +178,7 @@ export const ResumeProvider = ({ children }) => {
       status: "success",
       isClosable: true,
     });
-  }, [theme]);
+  }, [theme, toast]);
 
   const value = {
     about,

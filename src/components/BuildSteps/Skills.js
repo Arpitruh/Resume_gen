@@ -13,7 +13,6 @@ import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { useResume } from "../../Context";
 import { useToast } from "@chakra-ui/react";
-import AutoComplete from "../AutoComplete/AutoComplete.component";
 
 const Skills = () => {
   const toast = useToast();
@@ -69,10 +68,9 @@ const Skills = () => {
 
       <Box borderWidth={"1px"} rounded={"sm"} my={4} p={2}>
         {skills.length > 0
-          ? skills.map((skill, index) => (
+          ? skills.map((skill) => (
               <Tag
                 size={"lg"}
-                key={index}
                 borderRadius="full"
                 variant="solid"
                 colorScheme="purple"
